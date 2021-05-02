@@ -1,6 +1,11 @@
 # Omar Flashcards
 Simple Flashcards Application to memorize questions and daily quizzes, built using React Native.
 
+## Screenshot
+![Screenshot](https://github.com/omarrhanyy/omar-flashcards/raw/main/sample.png)
+
+## Demo Apk file
+https://github.com/omarrhanyy/omar-flashcards/raw/main/dist/omar-flashcards.apk
 
 ## Getting Started
 - Follow expo-cli install instructions https://docs.expo.io/get-started/installation/.
@@ -18,6 +23,3 @@ yarn start
 ## Tested On
 - Android 11 Emulator
 - Android 9 Device
-
-## Demo Apk file
-https://github.com/omarrhanyy/omar-flashcards/raw/main/dist/omar-flashcards.apk
