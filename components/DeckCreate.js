@@ -15,8 +15,9 @@ export class DeckCreate extends Component {
         const {title} = this.state
         const {dispatch} = this.props
         if (title) {
+            const id = generateId();
             dispatch(handleAddDeck({
-                id: generateId(),
+                id,
                 name: title,
                 questions: [],
                 created_at: new Date().toISOString()
@@ -24,7 +25,7 @@ export class DeckCreate extends Component {
             this.setState({
                 title: ''
             })
-            this.props.navigation.navigate('DeckList')
+            this.props.navigation.navigate('DeckView', {id})
         }
     }
     render() {

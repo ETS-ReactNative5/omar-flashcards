@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Text, View, StyleSheet, TouchableOpacity } from 'react-native'
 import commonStyles from '../utils/styles/common'
-import {darkgray, gray, light, pink, white} from "../utils/styles/colors";
+import {darkgray, darkgray2, gray, light, pink, white} from "../utils/styles/colors";
 import {Ionicons, MaterialCommunityIcons} from '@expo/vector-icons';
 import {connect} from "react-redux";
 import {handleDeleteDeck} from "../store/actions/decks";
@@ -40,16 +40,22 @@ export class DeckView extends Component {
                         </TouchableOpacity>
                     </View>
                 </View>
+                {
+                    (deck.questions.length <= 0) && (
+                        <Text style={styles.answer}>No questions added to this deck, Please add at least one.</Text>
+                    )
+                }
                 <TouchableOpacity
-                    style={[styles.button, {marginTop: 'auto', backgroundColor: darkgray}]}
+                    style={[styles.button, {marginTop: 'auto', backgroundColor: darkgray2}]}
                     onPress={this.addQuestion}
                 >
                     <Text style={styles.buttonText}>Add Question</Text>
                     <Ionicons name="ios-add-circle" size={30} color={white} />
                 </TouchableOpacity>
                 <TouchableOpacity
-                    style={[styles.button, {marginTop: 10}]}
+                    style={[styles.button, {marginTop: 10}, (deck.questions.length <= 0) && {opacity: 0.5}]}
                     onPress={this.startQuiz}
+                    disabled={deck.questions.length <= 0}
                 >
                     <Text style={styles.buttonText}>Start Quiz</Text>
                     <Ionicons name="ios-arrow-forward" size={30} color={white} />

@@ -34,6 +34,7 @@ function HomeStackScreen() {
         </HomeStack.Navigator>
     );
 }
+
 function getBottomBarItemIcon(route, focused) {
     switch (route.name) {
         case "Decks":

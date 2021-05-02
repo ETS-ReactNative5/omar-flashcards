@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3159c536-2eac-4097-82cb-89ff60a21d66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/QuizScoreboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/QuizStart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DeckCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DeckCreate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DeckView.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DeckView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/QuizView.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/QuizView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/styles/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/styles/colors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +63,7 @@
       <workItem from="1619808585517" duration="10828000" />
       <workItem from="1619867154943" duration="28955000" />
       <workItem from="1619959054292" duration="9125000" />
-      <workItem from="1619996711208" duration="1250000" />
+      <workItem from="1619996711208" duration="2700000" />
     </task>
     <servers />
   </component>
