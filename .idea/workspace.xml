@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3159c536-2eac-4097-82cb-89ff60a21d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/store/actions/decks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/reducers/decks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/styles/colors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/styles/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/adaptive-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/adaptive-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/store" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -50,6 +38,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Omar\My Workspace\React Nanodegree\react-native\mobile-flashcards\dist" />
       <recent name="D:\Omar\My Workspace\React Nanodegree\react-native\mobile-flashcards\store" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -67,7 +56,8 @@
       <workItem from="1619808289617" duration="284000" />
       <workItem from="1619808585517" duration="10828000" />
       <workItem from="1619867154943" duration="28955000" />
-      <workItem from="1619959054292" duration="8013000" />
+      <workItem from="1619959054292" duration="9125000" />
+      <workItem from="1619996711208" duration="1056000" />
     </task>
     <servers />
   </component>
