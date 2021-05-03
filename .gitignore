@@ -15,3 +15,4 @@ web-build/
 # Editors
 .idea
 .vscode
+.idea/workspace.xml
